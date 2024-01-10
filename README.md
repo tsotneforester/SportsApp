@@ -1,10 +1,9 @@
 <!-- selected option -->
 <!-- favicon -->
 
-<h1 align="center">Python + Flask + Sqlite</h1> 
+<h1 align="center">Python + Django</h1> 
 
-
-![289772102-506d2c72-65dc-4e66-a266-a075b88f0214](https://github.com/tsotneforester/python-flask-sqlite-CRUD/assets/79293287/0530eba3-b93b-4c4a-8b15-ae4678c70484)
+![sdfg](https://github.com/tsotneforester/python-django-CRUD/assets/79293287/d053dc8c-86df-442f-bc19-72c28f13a620)
 
 
 <h3 align="center">Setup Guide</h3> 
