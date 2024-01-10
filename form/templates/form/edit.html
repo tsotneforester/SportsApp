@@ -1,0 +1,15 @@
+{% extends "form/layout.html" %} {% block body%} {% for name in names.items %}
+
+<form class="add-edit-form" action="{% url 'update' %}" method="post">
+  {% csrf_token %}
+  <input type="hidden" name="id" value="{{ name.0 }}" />
+  <input class="form-control" type="text" name="name" value="{{ name.1.0 }}" />
+  <select class="form-select" name="sport">
+    {% for sport in sports %}
+    <option value="{{ sport }}">{{ sport.capitalize }}</option>
+    {% endfor %}
+  </select>
+  <button class="btn btn-success" type="submit">UPDATE</button>
+</form>
+
+{% endfor%} {% endblock %}

@@ -1,0 +1,10 @@
+{% extends "form/layout.html" %} {% block body%} {% for id, list in names.items %}
+
+<form action="../edit/{{ list.0 }}" method="get">
+  {% csrf_token %}
+  <!-- <input type="number" hidden value="{{ id }}" /> -->
+  <input type="submit" value="edit" />
+</form>
+
+<h1>{{ list.0 }} - {{ list.1 }}</h1>
+{% endfor%} {% endblock %}

@@ -1,0 +1,16 @@
+{% extends "form/layout.html" %} {% block body%}
+
+<h1>Add new</h1>
+
+<form class="add-edit-form" action="{% url 'add' %}" method="post">
+  {% csrf_token %}
+  <input class="form-control" autocomplete="off" autofocus name="name" placeholder="Name" type="text" required />
+  <select class="form-select" name="sport">
+    {% for sport in sports %}
+    <option value="{{ sport }}">{{ sport.capitalize }}</option>
+    {% endfor %}
+  </select>
+  <button class="btn btn-success" type="submit">ADD</button>
+</form>
+
+{% endblock %}
