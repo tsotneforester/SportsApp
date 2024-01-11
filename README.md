@@ -3,7 +3,8 @@
 
 <h1 align="center">Python + Django</h1>
 
-![logo](https://github.com/tsotneforester/python-django-CRUD/assets/79293287/d053dc8c-86df-442f-bc19-72c28f13a620)
+![sdfg](https://github.com/tsotneforester/SportsApp/assets/79293287/50b37689-fffb-4768-a05c-be37fef59862)
+
 
 ## intro
 
