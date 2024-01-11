@@ -21,6 +21,10 @@ you will find `log.sql` file in project. it helps to execute SQL queries and tes
 cat log.sql | sqlite3 database.db
 ```
 
+## Acknowledgments
+
+I've included a few of helpful resources!
+
 - [Sqlite.org](https://www.sqlite.org/doclist.html)
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/#user-s-guide)
 - [W3schools](https://www.w3schools.com/sql/default.asp)
